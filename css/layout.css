@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+
 }
 
 /* vertically center banner section */
@@ -187,6 +188,9 @@ sup {font-size:xx-small; vertical-align:super;}
 /* ------------------------------------------------------------------ */
 
 #about {
+   position: relative;
+   
+   width: 100%;
    background:black;
    padding-top: 196px;
    padding-bottom: 166px;
@@ -236,6 +240,7 @@ sup {font-size:xx-small; vertical-align:super;}
 /* ------------------------------------------------------------------ */
 
 #resume {
+  
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
@@ -411,16 +416,22 @@ sup {font-size:xx-small; vertical-align:super;}
 /* ------------------------------------------------------------------ */
 
 #portfolio {
+   position: relative;
+   
+   width: 100%;
+   
+   
+   overflow: hidden;
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 196px;
+   padding-bottom: 166px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font:24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
+   margin-bottom: 108px;
    color: #95A3A3;
 }
 
@@ -482,8 +493,8 @@ sup {font-size:xx-small; vertical-align:super;}
    position: absolute;
    top: 50%;
    left: 50%;
-   margin-left: -15px;
-   margin-top: -15px;
+   margin-left: -10px;
+   margin-top: -10px;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
@@ -643,7 +654,13 @@ call-to-action .button {
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
-
+   position: relative;
+   
+   width: 100%;
+   
+   padding-top: 196px;
+   padding-bottom: 166px;
+   overflow: hidden;
    position: relative;
    min-height: 200px;
    width: 100%;
